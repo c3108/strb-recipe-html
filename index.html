@@ -3,7 +3,104 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="description" content="curated by clarissa" />
+    <title>- by clarissa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- navigation bar -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">clarissa's</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#recipe" class="navbar__links" id="recipe-page">recipes</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- hero section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <p class="hero__description">welcome to</p>
+        <h1 class="hero__heading">from me to you</h1>
+        <img src="images/cake_slice.png" alt="cake slice" />
+        <p class="hero__description">a collection of recipes from me to you.</p>
+        <p class="hero__description">...</p>
+      </div>
+    </div>
+
+    <!-- recipe section -->
+    <div class="recipe" id="recipe">
+      <h1>strawberry</h1>
+      <h2>season.</h2>
+      <div class="recipe__wrapper">
+        <div class="recipe__card">
+          <a href="eggtart.html">strawberry egg tart</a>
+          <img
+            src="images/strawberry egg tart.jpeg"
+            alt="strawberry egg tart"
+          />
+        </div>
+
+        <div class="recipe__card">
+          <a href="redvelvet.html">strawberry red velvet cake</a>
+          <img
+            src="images/strawberry red velvet cake.jpeg"
+            alt="strawberry red velvet cake"
+          />
+        </div>
+
+        <div class="recipe__card">
+          <a href="cheesecake.html">strawberry cheesecake</a>
+          <img
+            src="images/strawberry mousse cheesecake.jpeg"
+            alt="strawberry mousse cheesecake"
+          />
+        </div>
+
+        <div class="recipe__card">
+          <a href="cupcake.html">strawberry cupcake</a>
+          <img src="images/strawberry cupcake.jpeg" alt="strawberry cupcake" />
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer__logo"><a href="#home"></a>clarissa's</div>
+
+      <div class="footer__nav">
+        <h2>jump to</h2>
+        <a href="#home">home</a>
+        <p></p>
+        <a href="#recipe">recipes</a>
+
+        <h3>contact</h3>
+        <a
+          href="https://mail.google.com/mail/u/0/?fs=1&to=chamego7878@gmail.com&su=&body=&tf=cm"
+          >chamego7878@gmail.com</a
+        >
+        <p>jakarta, indonesia</p>
+
+        <h4>&copy; 2025 clarissa ┃ 小红书 id 2902233268</h4>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
 </html>
